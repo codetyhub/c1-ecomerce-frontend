@@ -1,13 +1,13 @@
 import React from 'react';
-import facebook from "../images/facebook.png";
-import twitter from "../images/twitter.png"
-import linkedin from "../images/linkedin.png"
-import instagram from "../images/facebook.png"
-import youtube from "../images/facebook.png"
-import appStore from "../images/appStore.png"
-import googlePlay from "../images/googlePlay.png"
-import logo from "../images/logo.png"
-import flag from "../images/flag.jpg"
+import facebook from "../assets/images/facebook.png";
+import twitter from "../assets/images/twitter.png"
+import linkedin from "../assets/images/linkedin.png"
+import instagram from "../assets/images/facebook.png"
+import youtube from "../assets/images/facebook.png"
+import appStore from "../assets/images/appStore.png"
+import googlePlay from "../assets/images/googlePlay.png"
+import logo from "../assets/images/logo.png"
+import flag from "../assets/images/flag.jpg"
 
 
 
