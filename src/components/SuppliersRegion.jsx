@@ -18,9 +18,9 @@ const SuppliersRegion = () => {
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={arbs} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Arabic Emirates</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
@@ -28,81 +28,81 @@ const SuppliersRegion = () => {
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={australia} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Australia</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={us} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>United States</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={russia} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Russia</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={italy} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Italy</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={denmark} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Denmark</p>
-                            <p> denmark.com.dk</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={france} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>France</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={rwanda} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Rwanda</p>
-                            <p> Kikuu.com</p>
+                            <p className='text-gray-400'> Kikuu.com</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={us} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>United States</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
                     <div className="flex gap-4 justify-center">
                         <img src={britain} alt="" className='w-16'/>
-                        <div className='flex items-center flex-col justify-center'>
+                        <div className='flex flex-col justify-center'>
                             <p className='font-bold'>Great Britain</p>
-                            <p> shopname.ae</p>
+                            <p className='text-gray-400'> shopname.ae</p>
                         </div>
                     </div>
                 </div>
