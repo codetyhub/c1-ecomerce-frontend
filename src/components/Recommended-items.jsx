@@ -39,8 +39,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={tshirt} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>United States</p>
-                            <p className='text-gray-400'> shopname.ae</p>
+                            <p className='font-bold'>$10.30</p>
+                            <p className='text-gray-400'>T-shirts with multiple colors, for men</p>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={wallet} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>Russia</p>
-                            <p className='text-gray-400'> shopname.ae</p>
+                            <p className='font-bold'>$7.90</p>
+                            <p className='text-gray-400'>Blue wallet for men leather metarfial</p>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={jacket} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>Italy</p>
-                            <p className='text-gray-400'> shopname.ae</p>
+                            <p className='font-bold'>$17.40</p>
+                            <p className='text-gray-400'>Brown winter coat medium size</p>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={pot} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>Denmark</p>
-                            <p className='text-gray-400'> shopname.ae</p>
+                            <p className='font-bold'>$3.20</p>
+                            <p className='text-gray-400'>Brown pot medical container</p>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={headset} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>France</p>
-                            <p className='text-gray-400'> shopname.ae</p>
+                            <p className='font-bold'>$8.99</p>
+                            <p className='text-gray-400'>Headset for gaming with mic</p>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@ const recommendedItems = () => {
                     <div className="flex flex-col gap-4 px-4 items-center">
                         <img src={jeans} alt="" className='w-40'/>
                         <div className=''>
-                            <p className='font-bold'>Rwanda</p>
-                            <p className='text-gray-400'> Kikuu.com</p>
+                            <p className='font-bold'>$5.80</p>
+                            <p className='text-gray-400'>Jeans bag for travel for men</p>
                         </div>
                     </div>
                 </div>
