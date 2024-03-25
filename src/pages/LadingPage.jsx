@@ -1,12 +1,11 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Categoriescard from '../components/Categoriescard';
+import OfferingCard from '../components/Offering';
 
 export default function LandingPage(){
     return (
       <>
-        <Categoriescard />
-        {/* <Footer /> */}
+        <Footer />
        </>
     )
 }
