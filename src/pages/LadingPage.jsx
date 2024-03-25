@@ -1,16 +1,17 @@
-import React from 'react';
-import Footer from '../components/Footer';
+import React from "react";
+import Footer from "../components/Footer";
+import OfferingCard from "../components/Offering";
+import Categoriescard from "../components/Categoriescard";
 import ExtraServices from "../components/ExtraServices.jsx";
 import SuppliersRegion from "../components/SuppliersRegion.jsx";
-import OfferingCard from '../components/Offering';
-
 export default function LandingPage(){
     return (
-        <>
-            <OfferingCard />
-            <ExtraServices/>
+      <>
+          <Categoriescard />
+        <OfferingCard />
+          <ExtraServices/>
             <SuppliersRegion/>
-            <Footer/>
-        </>
+        <Footer />
+       </>
     )
 }
