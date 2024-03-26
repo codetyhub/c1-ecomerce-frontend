@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className='relative'>
       <div className='container mx-auto px-[50px]'>
-        <div className='grid drid-cols-12'>
+        <div className='grid grid-cols-12'>
             <div className='col-span-12'>
                <div className='py-[60px] px-0'>
                   <div className='grid md:grid-cols-12 grid-cols-1 gap-[20px]'>
