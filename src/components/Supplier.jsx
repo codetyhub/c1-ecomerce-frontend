@@ -1,14 +1,13 @@
-import { useState } from 'react';
 import "./App.css";
 function Supplier() {
     return (
         <>
-            <div className="backgroundImage w-[100%] flex flex-row">
-                <div className='px-10 '>
-                    <h2 className="text-lg font-bold text-white">An easy way to send requests to all suppliers</h2>
-                    <p className="text-sm mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <div className="container mx-auto backgroundImage flex justify-between gap-10 p-7 flex-wrap bg-cover">
+                <div className='w-[40%]'>
+                    <h2 className="text-lg text-4xl text-white">An easy way to send requests to all suppliers</h2>
+                    <p className="text-sm mt-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
-                <div className=' bg-white w-64 h-[300px] rounded-md py-4 px-4 text-black'>
+                <div className=' bg-white w-[40%] rounded-md py-7 px-10 text-black'>
                     <div>
                         Send Quote to Suppliers
                     </div>
