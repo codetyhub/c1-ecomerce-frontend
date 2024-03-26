@@ -12,7 +12,7 @@ import britain from '../assets/images/SuppliersRegion/united-kingdom-uk-svgrepo-
 // import 'react-flags-select/css/react-flags-select.css';
 const SuppliersRegion = () => {
     return (
-        <div className="container mx-auto px-[50px]">
+        <div className="container mx-auto px-[50px] py-10">
             <h2 className="font-bold py-7 text-xl">Suppliers by region</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                 <div className="flex justify-center bg-white shadow-lg rounded-lg overflow-hidden  py-3">
