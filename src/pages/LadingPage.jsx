@@ -2,12 +2,12 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Subscribe from '../components/subscribe';
 
-export default function LandingPage(){
+export default function LandingPage() {
     return (
-      <>
-      <Subscribe/>
-        <Footer />
-        
-       </>
+        <>
+            <Subscribe/>
+            <Footer/>
+
+        </>
     )
 }
