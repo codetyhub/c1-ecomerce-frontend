@@ -6,6 +6,7 @@ import Categoriescard from "../components/Categoriescard";
 import ExtraServices from "../components/ExtraServices.jsx";
 import SuppliersRegion from "../components/SuppliersRegion.jsx";
 import Subscribe from '../components/subscribe';
+import ConsumerElectronics from "../components/ConsumerElectronics.jsx";
 
 export default function LandingPage(){
     return (
@@ -13,6 +14,7 @@ export default function LandingPage(){
             <Categoriescard/>
             <OfferingCard/>
             <HomeAndOutdoors/>
+            <ConsumerElectronics />
             <ExtraServices/>
             <SuppliersRegion/>
             <Subscribe/>
