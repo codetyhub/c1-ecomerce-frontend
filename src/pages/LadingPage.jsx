@@ -6,10 +6,14 @@ import Categoriescard from "../components/Categoriescard";
 import ExtraServices from "../components/ExtraServices.jsx";
 import SuppliersRegion from "../components/SuppliersRegion.jsx";
 import Subscribe from '../components/subscribe';
+import PrimaryNav from "../components/primaryNav";
+import SecondaryNav from "../components/secondaryNav";
 
 export default function LandingPage(){
     return (
         <>
+            <PrimaryNav />
+            <SecondaryNav />
             <Categoriescard/>
             <OfferingCard/>
             <HomeAndOutdoors/>
