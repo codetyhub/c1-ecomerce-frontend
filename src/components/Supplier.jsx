@@ -2,12 +2,12 @@ import "./App.css";
 function Supplier() {
     return (
         <>
-            <div className="container mx-auto backgroundImage flex justify-between gap-10 p-7 flex-wrap bg-cover">
-                <div className='w-[40%]'>
+            <div className="container px-[50px] mx-auto backgroundImage lg:flex-row sm:flex-col flex-col items-center flex justify-between gap-10 py-7 flex-wrap bg-cover">
+                <div className='lg:w-[40%] w-full'>
                     <h2 className="text-lg text-4xl text-white">An easy way to send requests to all suppliers</h2>
                     <p className="text-sm mt-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                 </div>
-                <div className=' bg-white w-[40%] rounded-md py-7 px-10 text-black'>
+                <div className=' bg-white lg:w-[40%] w-full rounded-md py-7 px-10 text-black'>
                     <div>
                         Send Quote to Suppliers
                     </div>
