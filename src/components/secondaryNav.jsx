@@ -5,21 +5,21 @@ import flag from '../assets/images/flag.svg';
 
 const SecondaryNav = () => {
   return (
-    <div className="flex justify-between px-4 lg:px-12 py-3 shadow-sm">
+    <div className="flex flex-col lg:flex-row justify-between px-4 lg:px-12 py-3 shadow-sm">
       {/* Left side */}
-      <div className="flex items-center gap-4 text-semibold">
+      <div className="flex flex-wrap lg:flex-nowrap items-center gap-4 text-semibold">
         {/* Menu icon */}
         <IoMenuSharp size={20} />
         {/* All category */}
-        <div className="text-black font-semibold hidden lg:block">All Category</div>
+        <div className="text-black font-semibold">All Category</div>
         {/* Hot offers */}
-        <div className="text-black font-semibold hidden lg:block">Hot Offers</div>
+        <div className="text-black font-semibold">Hot Offers</div>
         {/* Gift Boxes */}
-        <div className="text-black font-semibold hidden lg:block">GiftBoxes</div>
+        <div className="text-black font-semibold">GiftBoxes</div>
         {/* Projects */}
-        <div className="text-black font-semibold hidden lg:block">Projects</div>
+        <div className="text-black font-semibold">Projects</div>
         {/* Menu Item */}
-        <div className="text-black font-semibold hidden lg:block">Menu Item</div>
+        <div className="text-black font-semibold">Menu Item</div>
         {/* Help */}
         <div className="flex items-center gap-1 text-black font-semibold">
           help
