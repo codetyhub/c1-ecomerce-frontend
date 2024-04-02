@@ -14,6 +14,7 @@ import SecondaryNav from "../components/secondaryNav";
 export default function LandingPage(){
     return (
         <>
+        
             <PrimaryNav />
             <SecondaryNav />
             <Categoriescard/>
@@ -24,7 +25,7 @@ export default function LandingPage(){
             <ExtraServices/>
             <SuppliersRegion/>
             <Subscribe/>
-            <Footer/>
+            <Footer />
         </>
     )
 }
