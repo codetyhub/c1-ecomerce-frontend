@@ -6,9 +6,9 @@ import Categoriescard from "../components/Categoriescard";
 import RecommendedItems from "../components/Recommended-items.jsx";
 import ExtraServices from "../components/ExtraServices.jsx";
 import SuppliersRegion from "../components/SuppliersRegion.jsx";
-import Subscribe from '../components/subscribe';
-import PrimaryNav from "../components/primaryNav";
-import SecondaryNav from "../components/secondaryNav";
+import Subscribe from '../components/Subscribe.jsx';
+import PrimaryNav from "../components/PrimaryNav.jsx";
+import SecondaryNav from "../components/SecondaryNav.jsx";
 
 export default function LandingPage(){
     return (
