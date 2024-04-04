@@ -9,7 +9,7 @@ import SuppliersRegion from "../components/SuppliersRegion.jsx";
 import Subscribe from '../components/Subscribe.jsx';
 import Supplier from '../components/Supplier.jsx'
 import PrimaryNav from "../components/PrimaryNav.jsx";
-import SecondaryNav from "../components/SecondaryNav";
+import SecondaryNav from "../components/SecondaryNav.jsx";
 
 export default function LandingPage(){
     return (
