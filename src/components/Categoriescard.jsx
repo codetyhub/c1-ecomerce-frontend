@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Image from "./Banner-board.png";
+import Image from "../assets/images/Banner-board.png";
 import Avatar from "../assets/Avatar.svg";
 function Categoriescard() {
     const categories = [
