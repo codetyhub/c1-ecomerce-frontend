@@ -23,11 +23,8 @@ const Categories = () =>
         </div>
         <div className="flex flex-col items-left">
         <div class="flex items-center">
-            <div>
-        <input checked id="disabled-checked-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-    <label for="disabled-checked-checkbox" class="ms-2 text-sm font-medium text-gray-400 dark:text-gray-500"></label>
-    </div>
-        <span className="ml-2 text-base text-black">Samsung</span>
+        <input type="checkbox" className="form-checkbox h-5 w-5 text-blue-500 checked:bg-blue-500 checked:border-transparent" checked />
+        <span className="ml-2 text-base text-black">samsung</span>    
             </div>
             <div className="flex items-left">
             <input type="checkbox" className="form-checkbox h-5 w-5 text-blue-500 checked:bg-blue-500 checked:border-transparent" checked />
