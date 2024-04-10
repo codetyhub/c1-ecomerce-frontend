@@ -81,7 +81,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -127,7 +127,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -168,7 +168,7 @@ function Mobile_Accessories() {
                 <span className="text-black font-bold mr-3">$99.50</span>
               </span>
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -215,7 +215,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -261,7 +261,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -303,7 +303,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -350,7 +350,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -396,7 +396,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -438,7 +438,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-blue-900 font-extrabold text-[30px]" />
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
