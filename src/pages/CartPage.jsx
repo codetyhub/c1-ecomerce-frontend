@@ -1,9 +1,10 @@
 import React from "react";
+import MyCart from "../components/MyCart";
 
 export default function CartPage() {
     return(
         <>
-            <h1>Cart Page</h1>
+            <MyCart />
         </>
     )
 }

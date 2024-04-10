@@ -3,6 +3,8 @@ import { MdMessage, MdAccountBox } from "react-icons/md";
 import { IoMdCart } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
 import logocolored from '../assets/images/logocolored.svg';
+import { Link } from 'react-router-dom';
+
 
 const PrimaryNav = () => {
   return (
@@ -64,9 +66,11 @@ const PrimaryNav = () => {
           <FaHeart className="text-gray-500 bg-white" size={20} />
           <h1 className="text-gray-400 text-sm lg:text-base">Orders</h1>
         </div>
-        <div className="justify-center flex flex-col items-center">
+        <div >
+        <Link to="/cart" className="justify-center flex flex-col items-center">
           <IoMdCart className="text-gray-500 bg-white" size={20} />
           <h1 className="text-gray-400 text-sm lg:text-base">My Cart</h1>
+        </Link>
         </div>
       </div>
     </div>
