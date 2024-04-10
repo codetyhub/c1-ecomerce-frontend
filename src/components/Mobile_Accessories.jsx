@@ -81,7 +81,7 @@ function Mobile_Accessories() {
               </span>
 
               <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
+                <CiHeart stroke="4" className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
             </span>
             <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
@@ -167,6 +167,142 @@ function Mobile_Accessories() {
               <span className="gap-2">
                 <span className="text-black font-bold mr-3">$99.50</span>
               </span>
+              <span className="border border-gray-300 p-2 rounded-md">
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
+              </span>
+            </span>
+            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar className="text-gray-500" />
+              </span>{" "}
+              <span className="text-yellow-500 ml-2">7.5</span>
+            </span>
+            <div className="mt-1 mb-2">
+              <p>GoPro HERO6 4K Action</p>
+              <p>Camera - Black</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div className="flex flex-col md:flex-row gap-3 -mt-16">
+        <div className="bg-white rounded-md text-black border border-gray-150 w-[295px] h-[405px] items-center justify-between mt-10 mb-10">
+          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
+            <div className="border border-gray-50">
+              <img src={image4} alt="" />
+            </div>
+          </div>
+          <div className="border border-gray-10 w-full"></div>
+          <div className="p-5 border border-gray-50">
+            <span className="flex flex-row justify-between">
+              <span className="gap-2">
+                <span className="text-black font-bold mr-3">$99.50</span>
+                <span>
+                  <span className="text-gray-500">$1128.00</span>
+                  <div className="w-[65px] text-gray-400 h-[1px] bg-slate-700 mt-[-11px] ml-[63px]"></div>
+                </span>
+              </span>
+
+              <span className="border border-gray-300 p-2 rounded-md">
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
+              </span>
+            </span>
+            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar className="text-gray-500" />
+              </span>{" "}
+              <span className="text-yellow-500 ml-2">7.5</span>
+            </span>
+            <div className="mt-1 mb-2">
+              <p>GoPro HERO6 4K Action</p>
+              <p>Camera - Black</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-md text-black border border-gray-150 w-[295px] h-[405px] items-center justify-between mt-10 mb-10">
+          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
+            <div className="border border-gray-50">
+              <img src={image5} alt="" />
+            </div>
+          </div>
+          <div className="border border-gray-10 w-full"></div>
+          <div className="p-5 border border-gray-50">
+            <span className="flex flex-row justify-between">
+              <span className="gap-2">
+                <span className="text-black font-bold mr-3">$99.50</span>
+                <span>
+                  <span className="text-gray-500">$1128.00</span>
+                  <div className="w-[65px] text-gray-400 h-[1px] bg-slate-700 mt-[-11px] ml-[63px]"></div>
+                </span>
+              </span>
+
+              <span className="border border-gray-300 p-2 rounded-md">
+                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
+              </span>
+            </span>
+            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar />
+              </span>
+              <span>
+                <IoIosStar className="text-gray-500" />
+              </span>{" "}
+              <span className="text-yellow-500 ml-2">7.5</span>
+            </span>
+            <div className="mt-1 mb-2">
+              <p>GoPro HERO6 4K Action</p>
+              <p>Camera - Black</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-md  text-black border  border-gray-150   w-[295px] h-[405px]  items-center justify-between mt-10 mb-10 ">
+          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
+            <div className="border border-gray-50">
+              <img src={image6} alt="" />
+            </div>
+          </div>
+          <div className="border border-gray-10 w-full"></div>
+          <div className="p-5 border border-gray-50">
+            <span className="flex flex-row justify-between">
+              <span className="gap-2">
+                <span className="text-black font-bold mr-3">$99.50</span>
+              </span>
+
               <span className="border border-gray-300 p-2 rounded-md">
                 <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
               </span>
@@ -331,141 +467,7 @@ function Mobile_Accessories() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-3 -mt-16">
-        <div className="bg-white rounded-md text-black border border-gray-150 w-[295px] h-[405px] items-center justify-between mt-10 mb-10">
-          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
-            <div className="border border-gray-50">
-              <img src={image4} alt="" />
-            </div>
-          </div>
-          <div className="border border-gray-10 w-full"></div>
-          <div className="p-5 border border-gray-50">
-            <span className="flex flex-row justify-between">
-              <span className="gap-2">
-                <span className="text-black font-bold mr-3">$99.50</span>
-                <span>
-                  <span className="text-gray-500">$1128.00</span>
-                  <div className="w-[65px] text-gray-400 h-[1px] bg-slate-700 mt-[-11px] ml-[63px]"></div>
-                </span>
-              </span>
-
-              <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
-              </span>
-            </span>
-            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar className="text-gray-500" />
-              </span>{" "}
-              <span className="text-yellow-500 ml-2">7.5</span>
-            </span>
-            <div className="mt-1 mb-2">
-              <p>GoPro HERO6 4K Action</p>
-              <p>Camera - Black</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-md text-black border border-gray-150 w-[295px] h-[405px] items-center justify-between mt-10 mb-10">
-          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
-            <div className="border border-gray-50">
-              <img src={image5} alt="" />
-            </div>
-          </div>
-          <div className="border border-gray-10 w-full"></div>
-          <div className="p-5 border border-gray-50">
-            <span className="flex flex-row justify-between">
-              <span className="gap-2">
-                <span className="text-black font-bold mr-3">$99.50</span>
-                <span>
-                  <span className="text-gray-500">$1128.00</span>
-                  <div className="w-[65px] text-gray-400 h-[1px] bg-slate-700 mt-[-11px] ml-[63px]"></div>
-                </span>
-              </span>
-
-              <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
-              </span>
-            </span>
-            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar className="text-gray-500" />
-              </span>{" "}
-              <span className="text-yellow-500 ml-2">7.5</span>
-            </span>
-            <div className="mt-1 mb-2">
-              <p>GoPro HERO6 4K Action</p>
-              <p>Camera - Black</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-md  text-black border  border-gray-150   w-[295px] h-[405px]  items-center justify-between mt-10 mb-10 ">
-          <div className="border border-gray-50 p-5 mt-7 mb-5 mx-10 my-5">
-            <div className="border border-gray-50">
-              <img src={image6} alt="" />
-            </div>
-          </div>
-          <div className="border border-gray-10 w-full"></div>
-          <div className="p-5 border border-gray-50">
-            <span className="flex flex-row justify-between">
-              <span className="gap-2">
-                <span className="text-black font-bold mr-3">$99.50</span>
-              </span>
-
-              <span className="border border-gray-300 p-2 rounded-md">
-                <CiHeart className="text-[#0D6EFD] font-extrabold text-[30px]" />
-              </span>
-            </span>
-            <span className="flex flex-row text-yellow-500 gap-1 text-center items-center">
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar />
-              </span>
-              <span>
-                <IoIosStar className="text-gray-500" />
-              </span>{" "}
-              <span className="text-yellow-500 ml-2">7.5</span>
-            </span>
-            <div className="mt-1 mb-2">
-              <p>GoPro HERO6 4K Action</p>
-              <p>Camera - Black</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div className="flex gap-2 justify-center md:justify-end">
         <select
           name="Show 10"
