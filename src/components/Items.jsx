@@ -10,7 +10,7 @@ function Items() {
   return (
     <div className="border border-gray-200 rounded p-4">
       <div className="text-black text-md font-bold">Related Products</div>
-      <div className="border border-gray-200 rounded p-4"> <div className="flex gap-2">
+      <div className="border border-gray-200 rounded p-4"> <div className="flex gap-2 flex flex-wrap">
 
 <div className="items-center">
   <img src={FirstPicture} alt="Image 1" className="w-20 h-20 rounded-lg" />
@@ -61,7 +61,7 @@ function Items() {
   </div>
 </div>
 </div></div>
-<div className="bg-blue-500 border border-blue-500 mt-4 h-20 flex flex-row justify-between px-8" style={{borderRadius: '3px'}}>    
+<div className="bg-blue-500 border border-blue-500 mt-4 h auto flex flex-wrap justify-between px-8" style={{borderRadius: '3px'}}>    
        <div className="flex flex-col"> <span className="text-white text-medium font-bold ">Super Discount on more than $100 USD</span>
         <span className="text-white text-extra-small">Have you ever finally just written Dummy info?</span></div>
         <div className="bg-yellow-500 border border-yellow-500 mt-2 flex flex-row" style={{ width: '75px', height: '30px', borderRadius: '3px', marginLeft: '80px' ,margitop: '5' }}>
