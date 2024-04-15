@@ -4,6 +4,7 @@ import LandingPage from './pages/LadingPage'
 import CheckoutPage from "./pages/CheckoutPage";
 import CartPage from "./pages/CartPage";
 import ProductsPage from "./pages/ProductsPage";
+import MensTshirts from './components/MensTshirts';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                     <Route path='/products' element={<ProductsPage/>}/>
                     <Route path='/cart' element={<CartPage/>}/>
                     <Route path='/checkout' element={<CheckoutPage/>}/>
+                    <Route path ="mensTshirt" element={<MensTshirts/>}/>
                 </Routes>
             </BrowserRouter>
         </>
