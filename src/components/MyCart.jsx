@@ -39,6 +39,8 @@ const MyCart = () => {
     ]
 
   return (
+    <div>
+        <h1 className='font-bold text-[2rem] mt-[50px] ml-[100px]'>My cart (3)</h1>
     <div className='flex justify-center gap-[30px] p-[50px]'>
        <div>
        {items.map(item =>{
@@ -75,8 +77,19 @@ const MyCart = () => {
                 </div>
             )
         })}
+        <div className='flex justify-between'>
+        <div className='bg-blue-600 text-white py-[9px] px-[35px] rounded cursor-pointer font-[500]'>
+            <button>Back to shop</button>
+        </div>
+        <div className='text-blue-600 font-[500] py-[9px] px-[35px] rounded cursor-pointer '>
+            <button>Remove all</button>
+        </div>
+       </div>
        </div>
 
+
+
+     {/* second part */}
         <div>
             <p>Have a coupon?</p>
             <div>
@@ -112,6 +125,7 @@ const MyCart = () => {
               <img src={applePay} />
             </div>
         </div>
+    </div>
     
     </div>
   )
