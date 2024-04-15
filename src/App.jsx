@@ -4,6 +4,7 @@ import LandingPage from './pages/LadingPage'
 import CheckoutPage from "./pages/CheckoutPage";
 import CartPage from "./pages/CartPage";
 import ProductsPage from "./pages/ProductsPage";
+import MainLayout from "./layouts/MainLayout.jsx";
 
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<LandingPage/>}/>
-                    <Route path='/products' element={<ProductsPage/>}/>
+                    <Route element={<MainLayout/>}>
+                        <Route path='/products' element={<ProductsPage/>}/>
+                    </Route>
                     <Route path='/cart' element={<CartPage/>}/>
                     <Route path='/checkout' element={<CheckoutPage/>}/>
                 </Routes>

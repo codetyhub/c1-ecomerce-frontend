@@ -31,7 +31,7 @@ const recommendedItems = () => {
                         <img src={short} alt="" className='w-40'/>
                         <div className=''>
                             <p className='font-bold'>$9.99</p>
-                            <p className='text-gray-400'>Canon camera  black, 100x zoom</p>
+                            <p className='text-gray-400'>Canon camera black, 100x zoom</p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ const recommendedItems = () => {
                         <img src={wallet} alt="" className='w-40'/>
                         <div className=''>
                             <p className='font-bold'>$7.90</p>
-                            <p className='text-gray-400'>Blue wallet for men leather metarfial</p>
+                            <p className='text-gray-400'>Blue wallet for men leather metarfial</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const recommendedItems = () => {
                         <img src={jacket} alt="" className='w-40'/>
                         <div className=''>
                             <p className='font-bold'>$17.40</p>
-                            <p className='text-gray-400'>Brown winter coat medium size</p>
+                            <p className='text-gray-400'>Brown winter coat medium size</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const recommendedItems = () => {
                         <img src={headset} alt="" className='w-40'/>
                         <div className=''>
                             <p className='font-bold'>$8.99</p>
-                            <p className='text-gray-400'>Headset for gaming with mic</p>
+                            <p className='text-gray-400'>Headset for gaming with mic</p>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ const recommendedItems = () => {
                         <img src={jeans} alt="" className='w-40'/>
                         <div className=''>
                             <p className='font-bold'>$5.80</p>
-                            <p className='text-gray-400'>Jeans bag for travel for men</p>
+                            <p className='text-gray-400'>Jeans bag for travel for men</p>
                         </div>
                     </div>
                 </div>
