@@ -8,9 +8,9 @@ import SixthPicture from '../assets/images/sixth picture.png';
 
 function Items() {
   return (
-    <div className="border border-gray-200 rounded p-4">
+    <div className="border border-gray-200 rounded p-10 border-solid border-2 pl-2" style={{ width: 'fit-content', margin: '0 auto' }}>
       <div className="text-black text-md font-bold">Related Products</div>
-      <div className="border border-gray-200 rounded p-4"> <div className="flex gap-2 flex flex-wrap">
+      <div className="border border-gray-200 rounded p-4"> <div className="flex gap-2 flex-wrap">
 
 <div className="items-center">
   <img src={FirstPicture} alt="Image 1" className="w-20 h-20 rounded-lg" />
