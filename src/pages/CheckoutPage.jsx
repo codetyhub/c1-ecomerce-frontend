@@ -1,9 +1,11 @@
-import React from "react";
+import ProductView from "../components/ProductView";
+import RelatedProducts from "../components/RelatedProducts";
 
 export default function CheckoutPage() {
     return(
         <>
-            <h1>Checkout Page</h1>
+            <ProductView />  
+            <RelatedProducts />
         </>
     )
 }

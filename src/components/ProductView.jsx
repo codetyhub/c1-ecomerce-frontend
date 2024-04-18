@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 
 import PrimaryNav from './PrimaryNav';
 import SecondaryNav from "./SecondaryNav"
-const MensTshirts = () => {
+
+const ProductView = () => {
   const shirts = useSelector((state) => state.tshirts);
   const [clickedId, setClickedId] = useState();
   const [defaultShirt, setDefaultShirt] = useState(null);
@@ -176,7 +177,7 @@ const MensTshirts = () => {
             Send Inquiry
           </button>
           <button className="bg-transparent  w-full p-3 font-bold rounded-md mt-5 text-blue-500 border border-gray-400">
-            Seller's Profile
+            Seller&apos;s Profile
           </button>
         </div>
 
@@ -194,4 +195,4 @@ const MensTshirts = () => {
   );
 };
 
-export default MensTshirts;
+export default ProductView;

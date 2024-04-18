@@ -1,4 +1,3 @@
-import React from 'react';
 import facebook from "../assets/images/facebook.png";
 import twitter from "../assets/images/twitter.png"
 import linkedin from "../assets/images/linkedin.png"
@@ -8,9 +7,6 @@ import appStore from "../assets/images/appStore.png"
 import googlePlay from "../assets/images/googlePlay.png"
 import logo from "../assets/images/logo.png"
 import flag from "../assets/images/flag.jpg"
-
-
-
 
 const Footer = () => {
   return (

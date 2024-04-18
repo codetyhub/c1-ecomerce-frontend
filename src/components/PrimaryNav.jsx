@@ -1,4 +1,3 @@
-import React from 'react';
 import { MdMessage, MdAccountBox } from "react-icons/md";
 import { IoMdCart } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
