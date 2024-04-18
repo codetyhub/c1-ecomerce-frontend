@@ -1,13 +1,18 @@
 import React from "react";
 import MyCart from "../components/MyCart";
-import Footer from "../components/Footer";
-import PrimaryNav from "../components/PrimaryNav";
+import SavedForLater from "../components/SavedForLater";
+import PrimaryNav from "../components/PrimaryNav.jsx";
+import SecondaryNav from "../components/SecondaryNav.jsx";
+import Footer from '../components/Footer';
 
 export default function CartPage() {
     return(
-        <>  <PrimaryNav />
+        <>
+            <PrimaryNav />
+            <SecondaryNav />
             <MyCart />
-            <Footer />
+            <SavedForLater/>
+            <Footer/>
         </>
     )
 }
