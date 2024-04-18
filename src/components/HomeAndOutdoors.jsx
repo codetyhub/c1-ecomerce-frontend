@@ -16,7 +16,7 @@ const HomeAndOutdoors = () => {
                 <div className="lg:w-[500px] md:w-full sm:w-full  p-5 object-fill bg-cover bg-center" style={{backgroundImage: `url(${image8})`}}>
                     <h3 className="text-black font-bold text-[24px] w-[50%] mb-4">Home and outdoor</h3>
                     <button className="bg-white hover:bg-gray-400 transition text-black text-[20px] font-[500]  px-4 py-2 mt-[10px] rounded-md">
-                        Source now
+                        Source Now
                     </button>
                 </div>
 
