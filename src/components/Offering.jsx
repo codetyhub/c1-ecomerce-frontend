@@ -1,4 +1,3 @@
-import React from "react";
 import last from "../assets/images/last.svg";
 import coundown from "../assets/images/coundown.svg";
 import Item from "../assets/images/Item.svg";

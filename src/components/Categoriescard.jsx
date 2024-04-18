@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import Image from "../assets/images/Banner-board.png";
 import Avatar from "../assets/Avatar.svg";
 function Categoriescard() {

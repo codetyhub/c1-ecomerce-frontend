@@ -1,4 +1,3 @@
-import React from 'react'
 import tshirt from "../assets/images/tshirt.svg"
 import americanExpress from "../assets/images/americanExpress.svg"
 import applePay from "../assets/images/applePay.svg"
