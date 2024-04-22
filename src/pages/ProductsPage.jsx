@@ -1,3 +1,6 @@
+import {BiGrid, BiMenu} from "react-icons/bi";
+import {CgLayoutGrid} from "react-icons/cg";
+
 export default function ProductsPage() {
     return (
         <>
@@ -26,12 +29,32 @@ export default function ProductsPage() {
                         </ul>
                     </nav>
                 </aside>
-                <main className="flex-1 p-5 bg-gray-200 h-full">
-                    <div className="bg-white p-5 rounded-lg ">
+                <main className="flex-1 p-5 py-3 bg-gray-200 h-full">
+                    <div className="bg-white p-5 rounded-lg flex justify-between items-center">
 
                         <p>12,911 items in Mobile accessory</p>
+                        <div className="flex flex-row ">
+                            <div className="flex flex-row items-center">
+                                <button
+                                    className="mx-1 bg-white text-black font-bold text-xs h-5 w-5 py-0.5 px-2 mt-2 mb-2 rounded-md border border-gray-500"></button>
+                                <p className="ml-1">verified only</p>
+                            </div>
+
+                            <button
+                                className="mx-1 bg-white text-black semi-bold py-2 px-4 rounded-lg border border-gray-300">
+                                featured
+                            </button>
+                            <div className="flex border rounded-lg items-center">
+                                <BiGrid size={26}/>
+                                <BiMenu size={30}/>
+                            </div>
+                        </div>
                     </div>
-                    {/* Add your dashboard content here */}
+                    <div className="bg-white p-5 rounded-lg mt-4">
+
+
+                    </div>
+
                 </main>
             </div>
         </>
