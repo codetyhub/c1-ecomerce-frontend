@@ -9,12 +9,12 @@ import image6 from "../assets/images/image 22.png";
 import image7 from "../assets/images/image 7.png";
 import image8 from "../assets/images/8.png";
 import image9 from "../assets/images/tech1.png";
-import {BiChevronLeft, BiChevronRight, BiMenu} from "react-icons/bi";
+import {BiChevronLeft, BiChevronRight} from "react-icons/bi";
 
 function Mobile_Accessories() {
     return (
-        <>
-            <div className="md:flex hidden flex-row items-center">
+        <div className='bg-white p-5 rounded-lg mt-4'>
+            <div className="md:flex hidden flex-row items-center flex-wrap">
                 <div>
                     <button className="mx-1 bg-white py-1 text-gray-600 px-4 rounded-lg border border-blue-500">
                         Samsung X
@@ -37,7 +37,6 @@ function Mobile_Accessories() {
                 </div>
                 <div className="text-blue-500 ml-2 font-semibold">Clear all filters</div>
             </div>
-
             <div className="flex flex-col md:flex-row gap-3">
                 <div
                     className="bg-white rounded-md  text-black border  border-gray-150   w-[295px] h-[405px]  items-center justify-between mt-10 mb-10 ">
@@ -175,7 +174,6 @@ function Mobile_Accessories() {
                     </div>
                 </div>
             </div>
-
             <div className="flex flex-col md:flex-row gap-3 -mt-16">
                 <div
                     className="bg-white rounded-md text-black border border-gray-150 w-[295px] h-[405px] items-center justify-between mt-10 mb-10">
@@ -452,7 +450,6 @@ function Mobile_Accessories() {
                     </div>
                 </div>
             </div>
-
             <div className="flex gap-2 justify-center md:justify-end">
                 <select
                     name="Show 10"
@@ -469,7 +466,7 @@ function Mobile_Accessories() {
                     <BiChevronRight size={30} className=" border bg-white rounded-r-md"/>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

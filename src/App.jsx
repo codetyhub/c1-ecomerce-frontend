@@ -23,7 +23,6 @@ function App() {
                     <Route path='/checkout' element={<CheckoutPage/>}/>
                     <Route path ="mensTshirt" element={<MensTshirts/>}/>
                     <Route path='/items' element={<Items/>} />
-                    <Route path='/categories' element={<Categories/>}/>
                 </Routes>
             </BrowserRouter>
         </>
