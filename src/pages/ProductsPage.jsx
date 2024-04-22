@@ -1,7 +1,17 @@
-import {BiGrid, BiMenu} from "react-icons/bi";
+import {useState} from "react";
+import Mobile_Accessories from "../components/Mobile_Accessories";
+import {BiListMinus, BiMenu} from "react-icons/bi";
 import {CgLayoutGrid} from "react-icons/cg";
 
 export default function ProductsPage() {
+    const [view, setProductView] = useState(false);
+    const [icon, setViewIcon] = useState(false);
+    const SetView = ()=>{
+        setProductView(!view)
+        setViewIcon(!icon)
+
+    }
+
     return (
         <>
             <div className="flex flex-col md:flex-row h-screen bg-gray-100">
@@ -45,18 +55,18 @@ export default function ProductsPage() {
                                 featured
                             </button>
                             <div className="flex border rounded-lg items-center">
-                                <BiGrid size={26}/>
-                                <BiMenu size={30}/>
+                                {icon ? <BiMenu size={30} onClick={SetView}/>:<CgLayoutGrid size={30} onClick={SetView}/>}
                             </div>
                         </div>
                     </div>
                     <div className="bg-white p-5 rounded-lg mt-4">
-
+                        {view ? <Mobile_Accessories/> : "Test2"}
 
                     </div>
 
                 </main>
             </div>
+
         </>
-    )
+    );
 }
