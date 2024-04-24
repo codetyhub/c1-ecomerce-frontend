@@ -7,6 +7,7 @@ import ProductsPage from "./pages/ProductsPage";
 import MensTshirts from './components/MensTshirts';
 import Items from './components/Items';
 import Categories from "./components/Categories";
+import MainLayout from "./layouts/MainLayout.jsx";
 
 function App() {
 
@@ -15,16 +16,13 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<LandingPage/>}/>
-                    <Route path='/products' element={<ProductsPage/>}/>
+                    <Route element={<MainLayout/>}>
+                        <Route path='/products' element={<ProductsPage/>}/>
+                    </Route>
                     <Route path='/cart' element={<CartPage/>}/>
                     <Route path='/checkout' element={<CheckoutPage/>}/>
                     <Route path ="mensTshirt" element={<MensTshirts/>}/>
-                    <Route path='/' element={<LandingPage />} />
-                    <Route path='/products' element={<ProductsPage />} />
-                    <Route path='/cart' element={<CartPage />} />
-                    <Route path='/checkout' element={<CheckoutPage />} />
                     <Route path='/items' element={<Items/>} />
-                    <Route path='/categories' element={<Categories/>}/>
                 </Routes>
             </BrowserRouter>
         </>

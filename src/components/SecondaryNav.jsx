@@ -11,9 +11,9 @@ const SecondaryNav = () => {
         {/* Menu icon */}
         <IoMenuSharp size={20} />
         {/* All category */}
-        <div className="text-black font-semibold">All Category</div>
+        <div className="text-black font-semibold hidden lg:block"><a href="/">All Category</a></div>
         {/* Hot offers */}
-        <div className="text-black font-semibold">Hot Offers</div>
+        <div className="text-black font-semibold hidden lg:block"><a href="/products">Products</a></div>
         {/* Gift Boxes */}
         <div className="text-black font-semibold">GiftBoxes</div>
         {/* Projects */}
